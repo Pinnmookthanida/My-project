@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 7145234326e654a75af3ad7e080c5acf
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - cannonFireSound: {fileID: 8300000, guid: ffa951e63c6f048708825418646957cf, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
