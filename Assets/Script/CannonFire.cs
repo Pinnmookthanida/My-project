@@ -5,7 +5,7 @@ using UnityEngine;
 public class CannonFire : MonoBehaviour
 {
     
-    public AudioClip cannonFireSound;
+    public AudioClip tiger;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,8 +20,8 @@ public class CannonFire : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log("cannon");
-        GetComponent<AudioSource>().PlayOneShot(cannonFireSound);
+        Debug.Log("crying");
+        GetComponent<AudioSource>().PlayOneShot(tiger);
     }
 
 }
