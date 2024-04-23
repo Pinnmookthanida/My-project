@@ -1,10 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
-public class wolfie : MonoBehaviour
+
+public class peopletalking : MonoBehaviour
 {
-    public AudioClip wolf;
+    public AudioClip people;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,9 +19,9 @@ public class wolfie : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         
-        Debug.Log("howling");
-        GetComponent<AudioSource>().PlayOneShot(wolf);
+        Debug.Log("talking");
+        GetComponent<AudioSource>().PlayOneShot(people);
 
-        SceneManager.LoadScene("burnt scene", LoadSceneMode.Single);
+
     }
 }
